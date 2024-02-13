@@ -2,7 +2,7 @@ package controllers
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"github.com/martin-harano/kong-vs-krakend/mockapp/internal/app/domain/faker"
+	"github.com/martin-harano/kong-vs-krakend/mockapp/internal/app/domain/benchmark"
 )
 
 type CreateApiRequest struct {
@@ -16,10 +16,10 @@ type ApiResponse struct {
 }
 
 type ApiController struct {
-	createApi *faker.CreateApi
+	createApi *benchmark.CreateApi
 }
 
-func mapApiResponse(api *faker.Api) ApiResponse {
+func mapApiResponse(api *benchmark.Api) ApiResponse {
 	return ApiResponse{
 		ID:   api.ID,
 		Name: api.Name,
@@ -42,7 +42,7 @@ func (a *ApiController) Get(c *fiber.Ctx) error {
 }
 
 func NewApiController(
-	createApi *faker.CreateApi,
+	createApi *benchmark.CreateApi,
 ) *ApiController {
 	return &ApiController{
 		createApi: createApi,

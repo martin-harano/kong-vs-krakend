@@ -1,4 +1,4 @@
-package faker
+package benchmark
 
 import "time"
 

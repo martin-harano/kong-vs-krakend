@@ -10,7 +10,7 @@ type ApiRouter struct {
 }
 
 func (a *ApiRouter) Load(r *fiber.App) {
-	r.Get("/apis", a.controller.Get)
+	r.Post("/test", a.controller.Get)
 }
 
 func NewApiRouter(

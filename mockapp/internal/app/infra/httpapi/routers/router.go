@@ -10,7 +10,7 @@ func MakeRouter(
 	apiRouter *ApiRouter,
 ) *fiber.App {
 	cfg := fiber.Config{
-		AppName:       "API Faker",
+		AppName:       "API Gateway Benchmark",
 		CaseSensitive: true,
 		Prefork:       true,
 	}

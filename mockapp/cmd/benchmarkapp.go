@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/google/uuid"
-	"github.com/martin-harano/kong-vs-krakend/mockapp/internal/app/domain/faker"
+	"github.com/martin-harano/kong-vs-krakend/mockapp/internal/app/domain/benchmark"
 	"github.com/martin-harano/kong-vs-krakend/mockapp/internal/app/infra/httpapi"
 	"github.com/martin-harano/kong-vs-krakend/mockapp/internal/app/infra/httpapi/controllers"
 	"github.com/martin-harano/kong-vs-krakend/mockapp/internal/app/infra/httpapi/routers"
@@ -17,7 +17,7 @@ func main() {
 		controllers.Module,
 		routers.Module,
 		httpapi.Module,
-		faker.Module,
+		benchmark.Module,
 		fx.Invoke(func(*fasthttp.Server) {}),
 	)
 
