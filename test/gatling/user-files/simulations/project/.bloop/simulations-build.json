@@ -2,15 +2,15 @@
     "version": "1.4.0",
     "project": {
         "name": "simulations-build",
-        "directory": "/home/martin/work/benchmarks/kong-vs-Krakend/test/gatling/user-files/simulations/project",
-        "workspaceDir": "/home/martin/work/benchmarks/kong-vs-Krakend/test/gatling/user-files/simulations/project",
+        "directory": "/home/martin/work/benchmarks/kong-vs-krakend/test/gatling/user-files/simulations/project",
+        "workspaceDir": "/home/martin/work/benchmarks/kong-vs-krakend/test/gatling/user-files/simulations/project",
         "sources": [
-            "/home/martin/work/benchmarks/kong-vs-Krakend/test/gatling/user-files/simulations/project/src/main/scala",
-            "/home/martin/work/benchmarks/kong-vs-Krakend/test/gatling/user-files/simulations/project/src/main/scala-2.12",
-            "/home/martin/work/benchmarks/kong-vs-Krakend/test/gatling/user-files/simulations/project/src/main/scala-2",
-            "/home/martin/work/benchmarks/kong-vs-Krakend/test/gatling/user-files/simulations/project/src/main/java",
-            "/home/martin/work/benchmarks/kong-vs-Krakend/test/gatling/user-files/simulations/project/src/main/scala-sbt-1.0",
-            "/home/martin/work/benchmarks/kong-vs-Krakend/test/gatling/user-files/simulations/project/target/scala-2.12/sbt-1.0/src_managed/main"
+            "/home/martin/work/benchmarks/kong-vs-krakend/test/gatling/user-files/simulations/project/src/main/scala",
+            "/home/martin/work/benchmarks/kong-vs-krakend/test/gatling/user-files/simulations/project/src/main/scala-2.12",
+            "/home/martin/work/benchmarks/kong-vs-krakend/test/gatling/user-files/simulations/project/src/main/scala-2",
+            "/home/martin/work/benchmarks/kong-vs-krakend/test/gatling/user-files/simulations/project/src/main/java",
+            "/home/martin/work/benchmarks/kong-vs-krakend/test/gatling/user-files/simulations/project/src/main/scala-sbt-1.0",
+            "/home/martin/work/benchmarks/kong-vs-krakend/test/gatling/user-files/simulations/project/target/scala-2.12/sbt-1.0/src_managed/main"
         ],
         "dependencies": [
             
@@ -110,11 +110,11 @@
             "/home/martin/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.6.1/ssl-config-core_2.12-0.6.1.jar",
             "/home/martin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar"
         ],
-        "out": "/home/martin/work/benchmarks/kong-vs-Krakend/test/gatling/user-files/simulations/project/.bloop/simulations-build",
-        "classesDir": "/home/martin/work/benchmarks/kong-vs-Krakend/test/gatling/user-files/simulations/project/.bloop/simulations-build/scala-2.12/sbt-1.0/classes",
+        "out": "/home/martin/work/benchmarks/kong-vs-krakend/test/gatling/user-files/simulations/project/.bloop/simulations-build",
+        "classesDir": "/home/martin/work/benchmarks/kong-vs-krakend/test/gatling/user-files/simulations/project/.bloop/simulations-build/scala-2.12/sbt-1.0/classes",
         "resources": [
-            "/home/martin/work/benchmarks/kong-vs-Krakend/test/gatling/user-files/simulations/project/src/main/resources",
-            "/home/martin/work/benchmarks/kong-vs-Krakend/test/gatling/user-files/simulations/project/target/scala-2.12/sbt-1.0/resource_managed/main"
+            "/home/martin/work/benchmarks/kong-vs-krakend/test/gatling/user-files/simulations/project/src/main/resources",
+            "/home/martin/work/benchmarks/kong-vs-krakend/test/gatling/user-files/simulations/project/target/scala-2.12/sbt-1.0/resource_managed/main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -221,7 +221,7 @@
             "config": {
                 "home": "/home/martin/.sdkman/candidates/java/17.0.0-tem",
                 "options": [
-                    "-Duser.dir=/home/martin/work/benchmarks/kong-vs-Krakend/test/gatling/user-files/simulations/project"
+                    "-Duser.dir=/home/martin/work/benchmarks/kong-vs-krakend/test/gatling/user-files/simulations/project"
                 ]
             },
             "mainClass": [
@@ -230,11 +230,11 @@
             "runtimeConfig": {
                 "home": "/home/martin/.sdkman/candidates/java/17.0.0-tem",
                 "options": [
-                    "-Duser.dir=/home/martin/work/benchmarks/kong-vs-Krakend/test/gatling/user-files/simulations/project"
+                    "-Duser.dir=/home/martin/work/benchmarks/kong-vs-krakend/test/gatling/user-files/simulations/project"
                 ]
             },
             "classpath": [
-                "/home/martin/work/benchmarks/kong-vs-Krakend/test/gatling/user-files/simulations/project/.bloop/simulations-build/scala-2.12/sbt-1.0/classes",
+                "/home/martin/work/benchmarks/kong-vs-krakend/test/gatling/user-files/simulations/project/.bloop/simulations-build/scala-2.12/sbt-1.0/classes",
                 "/home/martin/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.15/sbt-bloop_2.12_1.0-1.5.15.jar",
                 "/home/martin/.cache/coursier/v1/https/repo1.maven.org/maven2/io/gatling/gatling-sbt_2.12_1.0/4.8.1/gatling-sbt_2.12_1.0-4.8.1.jar",
                 "/home/martin/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/1.5.5/bloop-config_2.12-1.5.5.jar",

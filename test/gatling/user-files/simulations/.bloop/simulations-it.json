@@ -2,20 +2,20 @@
     "version": "1.4.0",
     "project": {
         "name": "simulations-it",
-        "directory": "/home/martin/work/benchmarks/kong-vs-Krakend/test/gatling/user-files/simulations",
-        "workspaceDir": "/home/martin/work/benchmarks/kong-vs-Krakend/test/gatling/user-files/simulations",
+        "directory": "/home/martin/work/benchmarks/kong-vs-krakend/test/gatling/user-files/simulations",
+        "workspaceDir": "/home/martin/work/benchmarks/kong-vs-krakend/test/gatling/user-files/simulations",
         "sources": [
-            "/home/martin/work/benchmarks/kong-vs-Krakend/test/gatling/user-files/simulations/src/it/scala",
-            "/home/martin/work/benchmarks/kong-vs-Krakend/test/gatling/user-files/simulations/src/it/scala-2.13",
-            "/home/martin/work/benchmarks/kong-vs-Krakend/test/gatling/user-files/simulations/src/it/scala-2",
-            "/home/martin/work/benchmarks/kong-vs-Krakend/test/gatling/user-files/simulations/src/it/java",
-            "/home/martin/work/benchmarks/kong-vs-Krakend/test/gatling/user-files/simulations/target/scala-2.13/src_managed/it"
+            "/home/martin/work/benchmarks/kong-vs-krakend/test/gatling/user-files/simulations/src/it/scala",
+            "/home/martin/work/benchmarks/kong-vs-krakend/test/gatling/user-files/simulations/src/it/scala-2.13",
+            "/home/martin/work/benchmarks/kong-vs-krakend/test/gatling/user-files/simulations/src/it/scala-2",
+            "/home/martin/work/benchmarks/kong-vs-krakend/test/gatling/user-files/simulations/src/it/java",
+            "/home/martin/work/benchmarks/kong-vs-krakend/test/gatling/user-files/simulations/target/scala-2.13/src_managed/it"
         ],
         "dependencies": [
             "simulations"
         ],
         "classpath": [
-            "/home/martin/work/benchmarks/kong-vs-Krakend/test/gatling/user-files/simulations/.bloop/simulations/scala-2.13/classes",
+            "/home/martin/work/benchmarks/kong-vs-krakend/test/gatling/user-files/simulations/.bloop/simulations/scala-2.13/classes",
             "/home/martin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar",
             "/home/martin/.cache/coursier/v1/https/repo1.maven.org/maven2/io/gatling/highcharts/gatling-charts-highcharts/3.10.3/gatling-charts-highcharts-3.10.3.jar",
             "/home/martin/.cache/coursier/v1/https/repo1.maven.org/maven2/io/gatling/gatling-test-framework/3.10.3/gatling-test-framework-3.10.3.jar",
@@ -122,11 +122,11 @@
             "/home/martin/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-resolver-dns-classes-macos/4.1.104.Final/netty-resolver-dns-classes-macos-4.1.104.Final.jar",
             "/home/martin/.cache/coursier/v1/https/repo1.maven.org/maven2/com/aayushatharva/brotli4j/service/1.13.0/service-1.13.0.jar"
         ],
-        "out": "/home/martin/work/benchmarks/kong-vs-Krakend/test/gatling/user-files/simulations/.bloop/simulations",
-        "classesDir": "/home/martin/work/benchmarks/kong-vs-Krakend/test/gatling/user-files/simulations/.bloop/simulations/scala-2.13/it-classes",
+        "out": "/home/martin/work/benchmarks/kong-vs-krakend/test/gatling/user-files/simulations/.bloop/simulations",
+        "classesDir": "/home/martin/work/benchmarks/kong-vs-krakend/test/gatling/user-files/simulations/.bloop/simulations/scala-2.13/it-classes",
         "resources": [
-            "/home/martin/work/benchmarks/kong-vs-Krakend/test/gatling/user-files/simulations/src/it/resources",
-            "/home/martin/work/benchmarks/kong-vs-Krakend/test/gatling/user-files/simulations/target/scala-2.13/resource_managed/it"
+            "/home/martin/work/benchmarks/kong-vs-krakend/test/gatling/user-files/simulations/src/it/resources",
+            "/home/martin/work/benchmarks/kong-vs-krakend/test/gatling/user-files/simulations/target/scala-2.13/resource_managed/it"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -228,7 +228,7 @@
             "config": {
                 "home": "/home/martin/.sdkman/candidates/java/17.0.0-tem",
                 "options": [
-                    "-Duser.dir=/home/martin/work/benchmarks/kong-vs-Krakend/test/gatling/user-files/simulations"
+                    "-Duser.dir=/home/martin/work/benchmarks/kong-vs-krakend/test/gatling/user-files/simulations"
                 ]
             },
             "mainClass": [
