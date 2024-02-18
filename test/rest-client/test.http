@@ -1,9 +1,13 @@
 # Parameters
 @baseUrl = localhost
-@port = 8080
+@port_api_gateway = 8080
+@port_service_1 = 9501
+@port_service_2 = 9502
+@service1_path = servicea
+@service2_path = serviceb
 
-### Simple request 
-POST http://{{baseUrl}}:{{port}}/test HTTP/1.1
+### Simple request at service 1
+POST http://{{baseUrl}}:{{port_service_1}}/{{service1_path}} HTTP/1.1
 Content-Type: application/json
 
 {
@@ -11,11 +15,47 @@ Content-Type: application/json
     "latency": 0
 }
 
-### Request with 1 second latency
-POST http://{{baseUrl}}:{{port}}/test HTTP/1.1
+### Request with 1 second latency at service 1
+POST http://{{baseUrl}}:{{port_service_1}}/{{service1_path}} HTTP/1.1
 Content-Type: application/json
 
 {
     "name": "test1",
     "latency": 1000
+}
+
+### Simple request at service 2
+POST http://{{baseUrl}}:{{port_service_2}}/{{service2_path}} HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "test2",
+    "latency": 0
+}
+
+### Request with 1 second latency at service 2
+POST http://{{baseUrl}}:{{port_service_2}}/{{service2_path}} HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "test2",
+    "latency": 1000
+}
+
+### Simple request at Api gateway on service 1
+POST http://{{baseUrl}}:{{port_api_gateway}}/{{service1_path}} HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "api_gateway_service1",
+    "latency": 0
+}
+
+### Simple request at Api gateway on service 2
+POST http://{{baseUrl}}:{{port_api_gateway}}/{{service2_path}} HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "api_gateway_service2",
+    "latency": 0
 }
