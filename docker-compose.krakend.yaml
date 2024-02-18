@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  app1:
+    build: ./mockapp
+    network_mode: host
+    environment:
+      - PATH_NAME=/servicea
+      - SERVER_PORT=9501
+      - ENABLE_SONIC_JSON=0
+      - ENABLE_PREFORK=1
+  app2:
+    build: ./mockapp
+    network_mode: host
+    environment:
+      - PATH_NAME=/serviceb
+      - SERVER_PORT=9502
+      - ENABLE_SONIC_JSON=0
+      - ENABLE_PREFORK=1
+  krakend_ce:
+    # The :watch image restarts the service automatically when the configuration files change.
+    # Do not use this image in production, it's meant to speed up your testing and development.
+    image: devopsfaith/krakend:watch
+    volumes:
+      - ./config/krakend:/etc/krakend
+    network_mode: host
+    command: ["run", "-d", "-c", "/etc/krakend/krakend.json"]
+    depends_on:
+      - app1
+      - app2

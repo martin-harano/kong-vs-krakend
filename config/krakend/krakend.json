@@ -1,0 +1,30 @@
+{
+    "$schema": "https://www.krakend.io/schema/v3.json",
+    "version": 3,
+    "name":"KrakenD configuration at Benchmark",
+    "port": 8080,
+    "endpoints": [
+        {
+            "@comment": "Service 1",
+            "endpoint": "/servicea",
+            "method": "POST",
+            "backend": [
+                {
+                    "host": ["localhost:9501"],
+                    "url_pattern": "/servicea"
+                }
+            ]
+        },
+        {
+            "@comment": "Service 2",
+            "endpoint": "/serviceb",
+            "method": "POST",
+            "backend": [
+                {
+                    "host": ["localhost:9502"],
+                    "url_pattern": "/serviceb"
+                }
+            ]
+        }
+    ]
+}
