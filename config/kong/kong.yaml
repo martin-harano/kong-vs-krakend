@@ -23,3 +23,14 @@ services:
           - /serviceb
         methods:
           - POST
+
+  - name: service3
+    host: localhost
+    port: 9503
+    path: /servicec
+    routes:
+      - name: service3
+        paths:
+          - /servicec
+        methods:
+          - POST

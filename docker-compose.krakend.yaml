@@ -17,6 +17,14 @@ services:
       - SERVER_PORT=9502
       - ENABLE_SONIC_JSON=0
       - ENABLE_PREFORK=1
+  app3:
+    build: ./mockapp
+    network_mode: host
+    environment:
+      - PATH_NAME=/servicec
+      - SERVER_PORT=9503
+      - ENABLE_SONIC_JSON=0
+      - ENABLE_PREFORK=1
   krakend_ce:
     # The :watch image restarts the service automatically when the configuration files change.
     # Do not use this image in production, it's meant to speed up your testing and development.

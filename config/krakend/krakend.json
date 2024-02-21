@@ -25,6 +25,17 @@
                     "url_pattern": "/serviceb"
                 }
             ]
+        },
+        {
+            "@comment": "Service 3",
+            "endpoint": "/servicec",
+            "method": "POST",
+            "backend": [
+                {
+                    "host": ["localhost:9503"],
+                    "url_pattern": "/servicec"
+                }
+            ]
         }
     ],
     "extra_config": {
