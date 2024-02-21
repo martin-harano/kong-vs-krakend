@@ -26,5 +26,10 @@
                 }
             ]
         }
-    ]
+    ],
+    "extra_config": {
+        "router": {
+            "disable_access_log": true
+        }
+    }
 }
