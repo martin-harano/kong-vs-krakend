@@ -1,0 +1,25 @@
+_format_version: "3.0"
+_transform: true
+
+services:
+  - name: service1
+    host: localhost
+    port: 9501
+    path: /servicea
+    routes:
+      - name: service1
+        paths:
+          - /servicea
+        methods:
+          - POST
+
+  - name: service2
+    host: localhost
+    port: 9502
+    path: /serviceb
+    routes:
+      - name: service2
+        paths:
+          - /serviceb
+        methods:
+          - POST
