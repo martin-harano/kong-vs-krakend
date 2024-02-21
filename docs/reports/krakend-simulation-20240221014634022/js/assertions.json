@@ -1,0 +1,10 @@
+{
+  "simulation": "ApiGatewayBenchmarkSimulation",
+  "simulationId": "apigatewaybenchmarksimulation-20240221014634022",
+  "start": 1708479994964,
+  "description": "DESCRICAO",
+  "scenarios": ["Path 1", "Path 2", "Path 3"],
+  "assertions": [
+
+  ]
+}
