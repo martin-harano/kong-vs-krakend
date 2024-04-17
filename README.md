@@ -2,6 +2,8 @@
 
 This project is an effort to analize two powerfull API Gateways. There is still much more to analize, but this initial report can give us a hint for decision
 
+This project is based on the runner up of the "Rinha de backend" competition. You can find his project [here](https://github.com/leorcvargas/rinha-go)
+
 ⚠️This research is dated to february 2024. Also, any code at this repository is not meant to be used directly in production. This repository attends to a particular need and may not be suitable as source for any arbitrary decision. 
 
 # Solutions comparison
